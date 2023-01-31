@@ -146,8 +146,8 @@ push "dhcp-option DNS 8.8.4.4"
 push "compress lz4-v2"
 push "persist-key"
 push "persist-tun"
-client-connect /etc/openvpn/login/connect.sh
-client-disconnect /etc/openvpn/login/disconnect.sh
+#client-connect /etc/openvpn/login/connect.sh
+#client-disconnect /etc/openvpn/login/disconnect.sh
 log /etc/openvpn/server/udpserver.log
 status /etc/openvpn/server/udpclient.log
 status-version 2
@@ -190,8 +190,8 @@ push "dhcp-option DNS 8.8.4.4"
 push "compress lz4-v2"
 push "persist-key"
 push "persist-tun"
-client-connect /etc/openvpn/login/connect.sh
-client-disconnect /etc/openvpn/login/disconnect.sh
+#client-connect /etc/openvpn/login/connect.sh
+#client-disconnect /etc/openvpn/login/disconnect.sh
 log /etc/openvpn/server/tcpserver.log
 status /etc/openvpn/server/tcpclient.log
 status-version 2
